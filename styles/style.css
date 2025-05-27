@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.hero {
+  height: 100vh;
+  background: url('../assets/images/angel.jpg') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero h1 {
+  font-size: 6rem;
+  color: white;
+  background: rgba(0, 0, 0, );
+  padding: 1rem 2rem;
+  font-weight: lighter;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem;
+  gap: 2rem;
+  
+}
+
+.section img {
+  width: 45%;
+  border-radius: 10px;
+}
+
+.text-block {
+  width: 50%;
+}
+.text-block h2{
+    font-size: 100px;
+    color: black;
+}
+
+.highlight {
+  color: deeppink;
+  font-size: 100px;
+}
+
+p {
+  margin-bottom: 1rem;
+  color: #555;
+}
+
+button {
+  padding: 1rem 3rem;
+  border: none;
+  background: deeppink;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.section-full {
+    display: flex;
+    align-items: center;
+    padding: 60px 10%;
+    flex-wrap: wrap;
+  background: url(../assets/images/raptis.png) ;
+  color: white;
+  height: 80vh;
+}
+.text{
+    margin-left: 500px;
+    padding: 130px;
+    padding-top: 40px;
+}
+.text p{
+    color: white;
+}
+.text1{
+    font-size: 100px;
+}
+.text h2{
+    font-size: 95px;
+}
+footer {
+  background: linear-gradient(to right, #e92939, #d31e6a);
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-evenly;
+}
