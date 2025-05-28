@@ -18,7 +18,7 @@ body {
 }
 
 .hero h1 {
-  font-size: 6rem;
+  font-size: 10rem;
   color: white;
   background: rgba(0, 0, 0, );
   padding: 1rem 2rem;
@@ -48,19 +48,23 @@ body {
 }
 
 .highlight {
-  color: deeppink;
+  background: linear-gradient(to right, #e92939, #d31e6a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
   font-size: 100px;
 }
 
 p {
   margin-bottom: 1rem;
   color: #555;
+  font-weight: bold;
 }
 
 button {
   padding: 1rem 3rem;
   border: none;
-  background: deeppink;
+  background: linear-gradient(to right, #e92939, #d31e6a);
   color: white;
   border-radius: 25px;
   cursor: pointer;
@@ -98,4 +102,18 @@ footer {
 .footer-content{
     display: flex;
     justify-content: space-evenly;
+    gap: 30px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.footer-content-2{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  margin-left: 10%;
+  margin-right: 10%;
 }
